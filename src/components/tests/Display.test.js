@@ -69,5 +69,5 @@ test("display func is called when fetch button is pressed", async () => {
 
     await waitFor(() => {
         expect(displayFunc).toHaveBeenCalled();
-    })
+    });
 })
